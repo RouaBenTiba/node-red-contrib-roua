@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-roua",
+  "version": "1.0.0",
+  "description": "My custom Node-RED node that converts text to lowercase",
+  "homepage": "https://github.com/RouaBenTiba/node-red-contrib-roua#readme",
+  "bugs": {
+    "url": "https://github.com/RouaBenTiba/node-red-contrib-roua/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RouaBenTiba/node-red-contrib-roua.git"
+  },
+  "license": "ISC",
+  "author": "Roua Ben Tiba",
+  "type": "commonjs",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "roua": "node.js"
+    }
+  }
+}
